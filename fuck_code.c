@@ -34,6 +34,6 @@ int main()
 	}
 	pthread_create(&dick,NO_GIRLFRIEND,&remove_condom,NO_GIRLFRIEND);
 	pthread_join(&dick,NO_GIRLFRIEND);
-	pthread_exit(&dick);
+	pthread_exit(dick);
 	return 0;
 }
